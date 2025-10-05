@@ -2,12 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { IonicModule } from '@ionic/angular';
 import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router'; // ✅ Import necessário
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-gatinhos',
   standalone: true,
-  imports: [IonicModule, CommonModule, RouterModule], // ✅ Adicione RouterModule
+  imports: [IonicModule, CommonModule, RouterModule], 
   templateUrl: './gatinhos.page.html',
   styleUrls: ['./gatinhos.page.scss'],
 })

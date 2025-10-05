@@ -1,5 +1,5 @@
 ion-content {
-  --background: #f7d5f2; /* fundo claro opcional */
+  --background: #f7d5f2; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,16 +28,16 @@ h1 {
   align-items: center;
   width: 100%;
   max-width: 250px;
-  gap: 14px; /* espaçamento entre os botões */
+  gap: 14px; 
 }
 
 ion-button {
   font-size: 16px;
-  --background: #dd538d; /* cor padrão */
-  --background-hover: #c1457f; /* cor quando o mouse passa */
-  --background-activated: #c1457f; /* cor quando clica */
-  --background-focused: #dd538d; /* cor quando focado */
-  --color: white; /* cor do texto */
+  --background: #dd538d; 
+  --background-hover: #c1457f; 
+  --background-activated: #c1457f; 
+  --background-focused: #dd538d; 
+  --color: white; 
   border-radius: 10px;
   width: 100%;
 }

@@ -1,5 +1,5 @@
 ion-content {
-  --background: #ffe6ef; /* fundo rosa claro */
+  --background: #ffe6ef; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,7 +24,7 @@ ion-button {
   --color: #fff;
   border-radius: 8px;
   width: 200px;
-  --background-hover: #c1457f; /* cor quando o mouse passa */
-  --background-activated: #c1457f; /* cor quando clica */
-  --background-focused: #dd538d; /* cor quando focado */
+  --background-hover: #c1457f; 
+  --background-activated: #c1457f; 
+  --background-focused: #dd538d; 
 }
