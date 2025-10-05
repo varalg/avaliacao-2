@@ -1,0 +1,10 @@
+<ion-content>
+  <div class="gatinho-container">
+    <h2>🐱 Gatinho do Dia 🐱</h2>
+
+    <img *ngIf="imagemUrl" [src]="imagemUrl" alt="Gatinho fofo" />
+
+    <ion-button (click)="carregarGatinho()">Ver outro gatinho</ion-button>
+    <ion-button color="medium" routerLink="/home">Voltar</ion-button>
+  </div>
+</ion-content>

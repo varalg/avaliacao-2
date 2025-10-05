@@ -1,0 +1,30 @@
+ion-content {
+  --background: #ffe6ef; /* fundo rosa claro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.gatinho-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+img {
+  max-width: 250px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(221, 83, 141, 0.3);
+}
+
+ion-button {
+  --background: #dd538d;
+  --color: #fff;
+  border-radius: 8px;
+  width: 200px;
+  --background-hover: #c1457f; /* cor quando o mouse passa */
+  --background-activated: #c1457f; /* cor quando clica */
+  --background-focused: #dd538d; /* cor quando focado */
+}
